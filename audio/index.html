@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio src="midia/funk.mp3" controls></audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/funk.ogg" type="audio/ogg">
+        <source src="midia/funk.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/funk.mp3"></a>Clique aqui para baixar o arquivo MP3
+        </p>
+    </audio>
+    
+    <h1>Reproduzindo vídeos</h1>
+    <p>Vamos aprender a reproduzir vídeos</p>
+    <video poster="midia/limoes-capa.png" width="560" controls muted autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="1000" height="515" src="https://www.youtube.com/embed/LW0bhKitRBk?si=H1zTAk1pVY6g-D4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <style>
+        iframe{
+            position: relative;
+            left: 25%;
+        }
+    </style>
+
+</body>
+</html>

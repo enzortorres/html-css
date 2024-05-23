@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: JetBrains Mono;
+}
+p {
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(45deg, #E5E5E5, #7A7A7A 70%);
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #4e4e4e;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 3%;
+}
+h1{
+    color: #FFB30D;
+    text-align: center;
+    text-shadow: 1px 1px 3px #9468088c;
+}
+h2{
+    color: #215cdb;
+}

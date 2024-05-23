@@ -1,0 +1,67 @@
+body {
+    font-family: Minecraft;
+    background-color: dimgray;
+}
+#backpage {
+    color: red;
+    text-decoration: none;
+}
+#backpage:hover {
+    text-decoration: underline;
+    color: darkred;
+    font-size: 18px;
+    transition: 0.3s;
+}
+header {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > article {
+    background-color: black;
+    margin: 0px;
+}
+article {
+    background-color: rgb(166, 166, 166);
+}
+aside {
+    background-color: rgb(150, 150, 150);
+}
+nav {
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+nav > a {
+    text-align: none;
+    color: white;
+    font-weight: bold;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(195, 194, 194);
+    transition-duration: 0.5s;
+}
+#bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    
+}

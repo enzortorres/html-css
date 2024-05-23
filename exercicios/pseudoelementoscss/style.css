@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+}
+a:active {
+    text-shadow: 0px 0px 5px 15px black;
+    transition: 0.1s;
+    color: lightblue;
+}
+.especial {
+    background-color: rgb(231, 123, 123);
+}
+.especial::before {
+    content: '⇒ ';
+    text-decoration: none;
+}
+.especial::after {
+    content: ' ⇐';
+    text-decoration: none;
+} 

@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.card {
+    background-image: url(https://i.pinimg.com/originals/25/e4/0e/25e40ef6b7f22c4af7d7d3dc7eeed10b.jpg);
+    background-size: 100% 100%;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgba(25, 25, 25, 0.537);
+    background-color: white;
+}
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.hole {
+    width: 60px;
+    height: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px black;
+    background-color: rgb(207, 207, 207);
+}
+.hole-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.text {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.name {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.nasc {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.cargo {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.desc {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.data {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+}

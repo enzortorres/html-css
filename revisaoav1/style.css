@@ -1,0 +1,46 @@
+/* body{
+    font-family: Arial;
+    font-size: 12px;
+}
+table {
+    background-color: #C7E7F3;
+    margin: 0 auto;
+}
+#title {
+    background-color: #0D5188;
+    color: white;
+}
+.position {
+    width: 10%;
+}
+.population{
+    width: 15%;
+}
+.position#number{
+    background-color: silver;
+}
+#number{
+    text-align: center;
+}
+.text {
+    color: #0D5188;
+} */
+body {
+    background-color: #00FFDA;
+    font-family: Arial;
+    overflow: hidden;
+}
+fieldset {
+    border-color: black;
+}
+img {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+}
+#class{
+
+}
+.class{
+    width: 10px;
+}
