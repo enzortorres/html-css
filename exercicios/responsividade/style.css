@@ -1,0 +1,129 @@
+/* nav {
+    background-color: #333;
+    width: 20%;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    display: flex;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    background-color: #101010;
+    width: 100%;
+}
+nav ul li img {
+    width: 100px;
+} */
+/* menu na horizontal */
+/* nav {
+    background-color: black;
+    width: 31.26%;
+}
+nav ul li img {
+    width: 100px;
+}
+nav ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    background-color: #101010;
+    color: red;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    position: sticky;
+    width: 100%;
+    background-color: #101010;
+    color: #fff;
+    padding: 10px;
+}
+header h1 {
+    margin: 0px;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 150px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* media queries para diferentes tamanhos de telas */
+
+@media (max-width: 600px) {
+    header {
+        padding: 5px;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav li {
+        display: block;
+        margin: 5px 0px;
+    }
+    section {
+        padding: 10px;
+    }
+    footer {
+        padding: 5px;
+    }
+}
+@media (min-width: 1025px) {
+    header {
+        padding: 20px;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    header nav li {  
+        margin: 0px 15px;
+    }
+    section {
+        padding: 50px;
+    }
+    footer {
+        padding: 20px;
+    }
+}
