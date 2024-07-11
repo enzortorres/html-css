@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    background-color: #101010;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.transitionSize {
+    transition: transform 1s;
+}
+.transitionSize:hover {
+    transform: scale(4);
+}
+.item2 {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.transitionDelay {
+    transition: width 1s 0.5s, height 0.5s 0s;
+}
+.transitionDelay:hover {
+    width: 200px;
+    height: 200px;
+}
+.transitionCheckbox {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+    margin-top: 30px;
+}
+.transitionCheckbox:checked {
+    transform: rotateZ(360deg);
+}
+.transitionRadio {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.5s;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: black;
+}
+.transitionRadio:checked {
+    transform: scale(-2);
+}
+.transitionButton {
+    margin-top: 50px;
+    margin-left: 10px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    transition: background 0.5s, color 0.5s, padding 0.5s, border 0.5s, transform 1s;
+}
+.transitionButton:hover {
+    background: red;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    transform: rotateZ(360deg);
+}
+#image-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s;
+}
+
+.imagem:hover {
+    transform: translate(-100%);
+}
+.link {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #101010;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.link:hover {
+    transform: translateX(-100%);
+}
